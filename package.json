@@ -1,0 +1,21 @@
+{
+  "name": "project-crud-employee-attendance",
+  "version": "1.0.0",
+  "description": "This project was created to fulfill the recruitment stage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ade Putra Nisman Jaya Gea",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "moment-range": "^4.0.2",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.3.4"
+  }
+}
