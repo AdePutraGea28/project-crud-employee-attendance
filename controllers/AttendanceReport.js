@@ -49,58 +49,10 @@ export const attendanceReport = async (req, res) => {
 
   notPresent = moment().daysInMonth() - (present + leave);
 
-  res.json({ present });
-
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
+  res.json({ name: employee[0].name, present, late, leave, notPresent, leaveApprove, leaveRejected });
 };
 
 function getDifferenceInDays(date1, date2) {
   const diffInMs = Math.abs(date2 - date1);
   return diffInMs / (1000 * 60 * 60 * 24);
 }
-
-// const attendance = await Attendance.find({ employeeId: '628c52985781877dc0852853' }, { timeIn: 1, _id: 0 });
-// const attendance1 = await Attendance.find({ employeeId: '628c529d5781877dc0852855' });
-// const cekparsedTime = moment(new Date(attendance[0].timeIn)).tz('Asia/Jakarta').format('YYYY-MM-DD');
-// res.json(attendance1);
-
-// const getId = req.body.id;
-// let present = 0;
-// let late = 0;
-// const leave = 0;
-// const notPresent = '';
-// const leaveApprove = 5; if(dateAprove && isAprove = true)
-// const leaveRejected = 5; if(dateAprove && isAprove = false)
-//   {
-// 	2022-05-24: {
-// 		"in": 2022-05-24 09:00:05,
-// 		"out": 2022-05-24 17:59:00
-// 	}
-// 	2022-05-25: {
-// 		"in": 2022-05-25 08:57:05,
-// 		"out": 2022-05-25 17:59:00
-// 	}
-// }
