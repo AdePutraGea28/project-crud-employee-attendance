@@ -58,6 +58,22 @@ This api have two status, status "masuk" for in and status "keluar" for out
  - If no error in database will look like this image below
 
    <img width="437" alt="Leave result" src="https://user-images.githubusercontent.com/88350337/170449791-2ee89fa7-c6ec-4669-b14a-778900d37b4a.png">
+   
+ 
+ 
+ - For approve leave we use Approve API with HTTP method "PATCH" and in params we need "leaveId" and in request body we need req "isApprove" with value "true"
+ - Routes "http://localhost:5000/approve/:leaveId"
+ - The response if not error will show like this image below
+
+   <img width="703" alt="Approve API" src="https://user-images.githubusercontent.com/88350337/170451824-f38b1afb-a994-415b-9d73-f6abd84e9ce4.png">
+   
+  - And in leave collection, the field "approveDate" will filled by current date when leave is approve
+  - And field "isApprove" will update from "false" to "true" we can see this image below for more details
+
+   <img width="428" alt="Approve result" src="https://user-images.githubusercontent.com/88350337/170452386-ff0335e7-7608-4a29-8757-53e01df2963c.png">
+
+
+
 
 
  
