@@ -18,6 +18,8 @@ The Attendance Employee API is created for record the attend of employee, like p
 
 C.    PROJECT ARCHITECTURE
 This project architecture pattern can be shown as below.
+
+
 <img width="193" alt="architecthur" src="https://user-images.githubusercontent.com/88350337/170440887-0d902197-32ae-46ca-bd51-6f4458a56bcb.png">
 
 
