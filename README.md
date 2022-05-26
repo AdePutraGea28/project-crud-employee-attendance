@@ -48,8 +48,18 @@ This api have two status, status "masuk" for in and status "keluar" for out
 
   <img width="376" alt="Attendance Collections (out)" src="https://user-images.githubusercontent.com/88350337/170448018-47bb749e-3be9-4479-89e4-23c1627cd975.png">
 
- 
- 
+
+
+
+ - To create leave we use Leave API, we use HTTP method "POST" and some request body, for more detail you can see this image below
+
+   <img width="701" alt="Leave API" src="https://user-images.githubusercontent.com/88350337/170449609-95e61ab4-927f-4d9c-87c0-e0590b98e51a.png">
+   
+ - If no error in database will look like this image below
+
+   <img width="437" alt="Leave result" src="https://user-images.githubusercontent.com/88350337/170449791-2ee89fa7-c6ec-4669-b14a-778900d37b4a.png">
+
+
  
  
  
