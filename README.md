@@ -30,8 +30,10 @@ This project architecture pattern can be shown as below.
  
  
 E. HOW TO USE
+To test This API I use Postman. To test API sometimes we need some request from body, request body usually we take from input form from frontend, because
+dont create input, so we use request body in postman.
 
-
+This picture below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body.
 
 <img width="623" alt="attend api" src="https://user-images.githubusercontent.com/88350337/170317967-d0a803c8-4d21-476e-9949-5386c7cd2304.png">
 <img width="704" alt="leave api" src="https://user-images.githubusercontent.com/88350337/170318061-9dbffdd5-91c9-499b-a348-624c361b99db.png">
