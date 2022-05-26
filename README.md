@@ -17,9 +17,8 @@ B. 	STORY
 The Attendance Employee API is created for record the attend of employee, like present, late, leave, and not present. This Attendance API will help company to track their employee attend.
 
 C.    PROJECT ARCHITECTURE
-
-This project arch<img width="193" alt="architecthur" src="https://user-images.githubusercontent.com/88350337/170440349-46b17054-2ee4-4384-8d2b-7730e809cee9.png">
-itecture pattern can be shown as below.
+This project architecture pattern can be shown as below.
+<img width="193" alt="architecthur" src="https://user-images.githubusercontent.com/88350337/170440887-0d902197-32ae-46ca-bd51-6f4458a56bcb.png">
 
 
 
