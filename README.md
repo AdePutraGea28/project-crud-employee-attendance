@@ -25,7 +25,15 @@ This project architecture pattern can be shown as below.
 # D. TABLE DESIGN
 ![image](https://user-images.githubusercontent.com/88350337/170316230-03be6c2e-16e1-4fa7-9d65-ea826b6d352c.png)
 
-# E. HOW TO USE
+# E. API
+
+<img width="155" alt="API POSTMAN" src="https://user-images.githubusercontent.com/88350337/170455555-cbb32796-0349-4681-8ba1-6244589eabb0.png">
+
+# F. ROUTE
+
+<img width="296" alt="ROUTE " src="https://user-images.githubusercontent.com/88350337/170455605-07e14006-4f2a-4dad-a955-2d863897dae7.png">
+
+# G. HOW TO USE
 To test This API I use Postman. To test API sometimes we need some request from body, request body usually we take from input form from frontend, because we dont have input form, so we use request body in postman.
 
  - This image below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body. This api have two status, status "masuk" for in and status "keluar" for out.
