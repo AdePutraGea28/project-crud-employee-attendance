@@ -29,11 +29,14 @@ E. HOW TO USE
 To test This API I use Postman. To test API sometimes we need some request from body, request body usually we take from input form from frontend, because
 dont create input, so we use request body in postman.
 
-This picture below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body.
+This image below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body.
+This api have two status, status "masuk" for in and status "keluar" for out
+
+This image below show us the response for status "masuk"
 
 <img width="696" alt="Attendance API (in)" src="https://user-images.githubusercontent.com/88350337/170447005-3e2cf4e4-d3d1-47ff-8b55-7fa21518c2a8.png">
 
-in database will look like this
+And in database will look like this
 
 <img width="375" alt="Attendance Collections (in)" src="https://user-images.githubusercontent.com/88350337/170447050-50a10207-13ae-46cb-b6e8-c17daf38971a.png">
 
