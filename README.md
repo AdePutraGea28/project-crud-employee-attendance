@@ -31,11 +31,12 @@ dont create input, so we use request body in postman.
 
 This picture below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body.
 
-![](<..%5C..%5CPictures%5CAttendance%20API%20(in).png>)
+<img width="696" alt="Attendance API (in)" src="https://user-images.githubusercontent.com/88350337/170447005-3e2cf4e4-d3d1-47ff-8b55-7fa21518c2a8.png">
 
 in database will look like this
 
-![](<..%5C..%5CPictures%5CAttendance%20Collections%20(in).png>)
+<img width="375" alt="Attendance Collections (in)" src="https://user-images.githubusercontent.com/88350337/170447050-50a10207-13ae-46cb-b6e8-c17daf38971a.png">
+
 
 <img width="704" alt="leave api" src="https://user-images.githubusercontent.com/88350337/170318061-9dbffdd5-91c9-499b-a348-624c361b99db.png">
 <img width="693" alt="approve api" src="https://user-images.githubusercontent.com/88350337/170318090-88b0d6fc-94c9-41bd-9a64-a1d5a296ea14.png">
