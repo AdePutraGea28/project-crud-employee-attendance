@@ -11,8 +11,8 @@ To build this project i used some technology, here below list of technology i us
 6. Cors 2.8.5
 7. Body-Parser 1.20.0
 8. Postman v9.19.0
-   9 NPM v6.14.14
-   10 Moment 2.29.3
+9. NPM v6.14.14
+10. Moment 2.29.3
 
 # B. STORY
 The Attendance Employee API is created for record the attend of employee, like present, late, leave, and not present. This Attendance API will help company to track their employee attend.
