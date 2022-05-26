@@ -40,7 +40,31 @@ This api have two status, status "masuk" for in and status "keluar" for out
 
 <img width="375" alt="Attendance Collections (in)" src="https://user-images.githubusercontent.com/88350337/170447050-50a10207-13ae-46cb-b6e8-c17daf38971a.png">
 
+ -This image below show us the response for status "keluar"
+ 
+  <img width="698" alt="Attendance API (out)" src="https://user-images.githubusercontent.com/88350337/170447907-2fddc8a4-4e2e-4f8f-805d-bf607f408ae6.png">
+ 
+  - And in database will look like this
 
-<img width="704" alt="leave api" src="https://user-images.githubusercontent.com/88350337/170318061-9dbffdd5-91c9-499b-a348-624c361b99db.png">
-<img width="693" alt="approve api" src="https://user-images.githubusercontent.com/88350337/170318090-88b0d6fc-94c9-41bd-9a64-a1d5a296ea14.png">
-<img width="691" alt="attendance report api" src="https://user-images.githubusercontent.com/88350337/170318122-16e1903b-ec1f-4e0c-869d-983713527155.png">
+  <img width="376" alt="Attendance Collections (out)" src="https://user-images.githubusercontent.com/88350337/170448018-47bb749e-3be9-4479-89e4-23c1627cd975.png">
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
