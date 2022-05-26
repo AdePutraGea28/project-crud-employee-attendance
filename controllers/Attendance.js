@@ -12,7 +12,7 @@ export const attendance = async (req, res) => {
         employeeId: employeeId,
       });
       await attendance.save();
-      return res.json({ msg: 'Attend in Success' });
+      return res.status(201).json({ msg: 'Attend in Success' });
     } else if (status.toLowerCase() === 'keluar') {
       const find = await Attendance.findOneAndUpdate(
         { employeeId: employeeId, attendanceDate: moment().format('YYYY-MM-DD') },
@@ -22,9 +22,9 @@ export const attendance = async (req, res) => {
           },
         }
       );
-      return res.json({ msg: 'Attend out Success', result: find });
+      return res.status(200).json({ msg: 'Attend out Success', result: find });
     } else {
-      return res.json({ msg: 'Status Unknown' });
+      return res.status(500).json({ msg: 'Status Unknown' });
     }
   } catch (error) {
     res.json({ msg: error.message });
@@ -34,30 +34,3 @@ export const attendance = async (req, res) => {
   // res.json(deleteA);
 };
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-// function addZero(i) {
-//   if (i < 10) {
-//     i = '0' + i;
-//   }
-//   return i;
-// }
-
-// function getTime() {
-//   const d = new Date();
-//   let h = addZero(d.getHours());
-//   let m = addZero(d.getMinutes());
-//   let s = addZero(d.getSeconds());
-//   let time = h + ':' + m;
-//   return time;
-// }
