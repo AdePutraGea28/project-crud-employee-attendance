@@ -22,7 +22,7 @@ export const attendance = async (req, res) => {
           },
         }
       );
-      return res.status(200).json({ msg: 'Attend out Success', result: find });
+      return res.status(200).json({ msg: 'Attend out Success' });
     } else {
       return res.status(500).json({ msg: 'Status Unknown' });
     }
@@ -33,4 +33,3 @@ export const attendance = async (req, res) => {
   // const deleteA = await Attendance.remove();
   // res.json(deleteA);
 };
-
