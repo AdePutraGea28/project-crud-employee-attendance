@@ -1,6 +1,6 @@
 # DOCUMENTATION OF ATTENDANCE EMPLOYEE API
 
-A. Technology
+ #A. Technology
 To build this project i used some technology, here below list of technology i used
 
 1. Visual Studio Code (VSC) Version 1.67.2
@@ -14,15 +14,15 @@ To build this project i used some technology, here below list of technology i us
    9 NPM v6.14.14
    10 Moment 2.29.3
 
-B. STORY
+#B. STORY
 The Attendance Employee API is created for record the attend of employee, like present, late, leave, and not present. This Attendance API will help company to track their employee attend.
 
-C. PROJECT ARCHITECTURE
+#C. PROJECT ARCHITECTURE
 This project architecture pattern can be shown as below.
 
 <img width="193" alt="architecthur" src="https://user-images.githubusercontent.com/88350337/170440887-0d902197-32ae-46ca-bd51-6f4458a56bcb.png">
 
-D. TABLE DESIGN
+#D. TABLE DESIGN
 ![image](https://user-images.githubusercontent.com/88350337/170316230-03be6c2e-16e1-4fa7-9d65-ea826b6d352c.png)
 
 E. HOW TO USE
