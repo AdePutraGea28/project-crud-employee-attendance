@@ -26,11 +26,11 @@ D. TABLE DESIGN
 ![image](https://user-images.githubusercontent.com/88350337/170316230-03be6c2e-16e1-4fa7-9d65-ea826b6d352c.png)
 
 E. HOW TO USE
-To test This API I use Postman. To test API sometimes we need some request from body, request body usually we take from input form from frontend, because
-dont create input, so we use request body in postman.
+To test This API I use Postman. To test API sometimes we need some request from body, request body usually we take from input form from frontend, because we dont have input form, so we use request body in postman.
 
-This image below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body.
-This api have two status, status "masuk" for in and status "keluar" for out
+ - This image below show us how to make new document for attend employee. to make attendance you need to input employeeId and status to request body. This api have two status, status "masuk" for in and status "keluar" for out.
+ - route for Attendance API "http://localhost:5000/attendance"
+ - and we use HTTP method "POST"
 
  - This image below show us the response for status "masuk"
 
@@ -51,7 +51,9 @@ This api have two status, status "masuk" for in and status "keluar" for out
 
 
 
- - To create leave we use Leave API, we use HTTP method "POST" and some request body, for more detail you can see this image below
+ - To create leave we use Leave API, we use HTTP method "POST" and some request body
+ - route for Leave API "http://localhost:5000/leave"
+ - For more detail we can see this image below
 
    <img width="701" alt="Leave API" src="https://user-images.githubusercontent.com/88350337/170449609-95e61ab4-927f-4d9c-87c0-e0590b98e51a.png">
    
