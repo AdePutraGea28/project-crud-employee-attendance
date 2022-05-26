@@ -75,6 +75,12 @@ To test This API I use Postman. To test API sometimes we need some request from 
    <img width="428" alt="Approve result" src="https://user-images.githubusercontent.com/88350337/170452386-ff0335e7-7608-4a29-8757-53e01df2963c.png">
 
 
+- To get All report attendance for each employee we use AttendanceReport API
+- Routes "http://localhost:5000/report/:employeeId"
+- We use HTTP method "GET"
+- We can see this image below for more details
+
+<img width="699" alt="Attendance Report API" src="https://user-images.githubusercontent.com/88350337/170454364-6dde1dd3-1f98-41a0-b21c-ff382e07e5af.png">
 
 
 
