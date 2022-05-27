@@ -21,7 +21,7 @@ export const getAllDataAttendance = async (req, res) => {
           from: 'employees',
           localField: 'employeeId',
           foreignField: '_id',
-          as: 'hasil',
+          as: 'employee',
         },
       },
     ]);
@@ -40,7 +40,7 @@ export const getAllDataLeave = async (req, res) => {
           from: 'employees',
           localField: 'employeeId',
           foreignField: '_id',
-          as: 'hasil',
+          as: 'employee',
         },
       },
     ]);
