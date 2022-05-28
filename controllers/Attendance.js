@@ -12,7 +12,7 @@ export const attendance = async (req, res) => {
         employeeId: employeeId,
       });
       await attendance.save();
-      return res.status(201).json({ msg: 'Attend in Success' });
+      return res.status(201).json({ msg: 'Attend is Success' });
     } else if (status.toLowerCase() === 'keluar') {
       const find = await Attendance.findOneAndUpdate(
         { employeeId: employeeId, attendanceDate: moment().format('YYYY-MM-DD') },
